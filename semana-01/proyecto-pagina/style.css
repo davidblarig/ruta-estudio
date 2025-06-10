@@ -1,0 +1,87 @@
+html {
+  font-family: Onest Variable, system-ui, sans-serif;
+  scroll-behavior: smooth;
+  line-height: 1.5;
+  color: white;
+  background-color: rgb(3 7 18);
+  background-image: radial-gradient(ellipse 80% 80% at 50% -20%,#7877c64d,#fff0);
+}
+
+body {
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overscroll-behavior: none;
+  line-height: inherit;
+  align-items: center;
+}
+
+header, footer {
+  text-align: center;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 3rem;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+p {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+main {
+  padding: 2em;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+h2 > svg {
+  width: 2rem;
+  height: 2rem;
+}
+
+li > svg {
+  width: 15px;
+  aspect-ratio: 1/1;
+  object-fit: contain;
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+li > h3 {
+  display: inline-flex;
+}
+
+li > h3:hover {
+  color: rgb(250 204 21);
+  transition: all ease-in 100ms;
+  cursor: pointer;
+}
+
+.contacto a {
+  margin-right: 10px;
+  color: #007acc;
+}
+
+@media (max-width: 600px) {
+  main {
+    padding: 1em;
+  }
+}
